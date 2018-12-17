@@ -3,6 +3,9 @@ using namespace std;
 
 int binary_search(int arr[] ,int end, int number , int mid, int start=0){
     if(mid<=end){
+        // if(arr[mid]<=number){
+            
+        // }
         if(arr[mid]>number) {
             end = mid;
             mid = (start + end)/2;
@@ -13,6 +16,7 @@ int binary_search(int arr[] ,int end, int number , int mid, int start=0){
             mid = (start + end)/2;
             binary_search(arr,end,number, mid, start);
         }
+        // ask about if statements
         return mid;
 
     } 
