@@ -45,10 +45,23 @@ public:
             v[v.size()-1] = 2*min - v[v.size()-1];
             return v[v.size()-1];
     }
+
+    int mini(){
+        return this->min;
+    }
 };
 
 int main(int argc, char const *argv[])
-{
+{   
+    Stack a;
+    a.push(1);
+    a.push(2);
+    a.push(3);
+    a.push(-1);
+    a.push(-2);
+
+
+    cout<<a.mini();
 
     return 0;
 }

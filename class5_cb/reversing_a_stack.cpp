@@ -2,9 +2,8 @@
 #include<stack>
 using namespace std;
 
-void reversingAStack(stack<int> &a){
-    int temp = a.top();
-    a.pop();
+int reversingAStack(stack<int> &a){
+    
     // Base case
     if( a.size() == 1){
         int temp = a.top();
@@ -13,6 +12,8 @@ void reversingAStack(stack<int> &a){
     }
 
     // Rec case
+    int temp = a.top();
+    a.pop();
     return reversingAStack(a);
     // a.push(temp);
 }

@@ -62,7 +62,8 @@ void firstNegative(int arr[],int n, int k){
 
 int main(int argc, char const *argv[])
 {
-	int arr[10] = {-5,6,-3,-2,-1,8,7,-4, 9, -7};
-	firstNegative(arr,10,3);
+	int arr[] = {-1,2,3,-4,5};
+    int n=5;
+	firstNegative(arr,5,3);
 	return 0;
 }

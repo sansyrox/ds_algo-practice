@@ -1,1 +1,3 @@
-reversingAStack(a);
+if(i!=')'){
+            a.push(i);
+        }
