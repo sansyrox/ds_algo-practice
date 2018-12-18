@@ -7,7 +7,7 @@ int getIthBit(int n, int p=0){
             p++;
         if (int((n&(1<<p))>0?1:0) == 1) return p;
     }
-    return 
+    return ;
 
 }
 

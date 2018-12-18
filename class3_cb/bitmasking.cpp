@@ -33,7 +33,7 @@ int cntBits3(int n){
     int cnt=0;
     while(n){
         int p = n&(-n);
-        n = n -p;
+        n = n - p;
         cnt++;
     }
 }
