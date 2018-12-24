@@ -68,9 +68,6 @@ node* reverse(node*&head, int k){
 }
 
 
-
-
-
 int main(){
 	node*head = NULL;
 	int n;
@@ -81,8 +78,9 @@ int main(){
 	int k;
 	cin>>k;
 	int c=1; // current index and enter the first term, where the index of Linked list is starting from 1
+	int i;
 	while(c<=n) {  
-		int i;
+		
 		cin>>i;
 		insertAtHead(head,i);
 		c++;
