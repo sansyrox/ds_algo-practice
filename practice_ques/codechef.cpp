@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
 		getline(cin,s);
 		map<int,string> m;
 		
-		cout<<s;
+		// cout<<s;1
 		int index = 0;
 		for(int i=0; i<s.length(); i++){
 			if(s[i]!=' '){

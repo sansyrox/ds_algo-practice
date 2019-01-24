@@ -1,6 +1,12 @@
 {
     "files.associations": {
         "typeinfo": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "string": "cpp",
+        "istream": "cpp",
+        "algorithm": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp"
     }
 }

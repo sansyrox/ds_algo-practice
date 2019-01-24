@@ -24,9 +24,9 @@ string duplicateRec(string s, int len, int i, string copy){
 
 int main(int argc, char const *argv[])
 {
-    string s;
+	string s;
 	cin>>s;
 	string copy="";
 	cout<<duplicateRec(s,s.length(),0,copy);
-    return 0;
+	return 0;
 }
